@@ -1,0 +1,17 @@
+.input:hover{
+    border-color: #ff5722;
+}
+.input:focus{
+    border-color: #ff5722;
+}
+.file_input:hover{
+    border-color: #ff5722;
+}
+.file_input{
+    width: 100px;
+    height: 100px;
+    border:dashed 1px lightgray;
+}
+.border:hover{
+    border-color: #ff5722;
+}

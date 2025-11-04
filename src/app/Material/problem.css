@@ -1,0 +1,18 @@
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity: 100;
+        transform: translateY(0);
+    }
+}
+
+.slide-down-animation {
+    animation: slideDown 0.5s ease-out forwards;
+}
+
+.show{
+    transition-duration: 300ms;
+}
