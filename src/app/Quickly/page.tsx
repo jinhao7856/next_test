@@ -7,7 +7,7 @@ function Quickly() {
             <div>
                 <Nave/>
             </div>
-            <div className='w-auto xl:w-[15%] p-5 border-r border-r-gary-200 h-full pb-[10rem]'>
+            <div className=' w-[15%] p-5 border-r border-r-gary-200 h-full pb-[10rem]'>
                 <div className='space-y-3'>
                     <button
                         className='h-[45px] w-full px-5 border-1 border-orange-400 rounded-xs bg-orange-200 text-orange-400 cursor-pointer text-center'>
@@ -40,12 +40,26 @@ function Quickly() {
                 </div>
             </div>
             <div className='p-5 w-[60%] !flex !flex-col '>
-                <div className=''>
+                <div className='overflow-hidden h-auto opacity-1'>
                     <div className=''>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img alt="Avatar" loading="lazy" width="60" height="60" decoding="async" data-nimg="1"
                              src='https://www.quicklyre.com/_next/static/media/icon.f41f5269.png'/>
 
+                    </div>
+                </div>
+            </div>
+            <div className='w-auto xl:w-[25%] border-l border-l-gray-200 bg-white '>
+                <div>
+                    <div>
+                        <div>
+                            <div>我的零件库</div>
+                            <div>
+                                <div className='flex flex-wrap gap-2 md:gap-3 items-center'>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
