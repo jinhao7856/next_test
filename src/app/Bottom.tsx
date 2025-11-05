@@ -22,38 +22,43 @@ export default function Bottom() {
             </div>
             <div className='overflow-hidden h-auto relative'>
                 <div className='flex items-center justify-center w-full flex-col bg-neutral-900'>
-                    <div className='relative z-50 flex flex-row py-10 w-4/5'>
+                    <div className='relative z-50 flex flex-row py-10 w-9/10 xl:w-4/5'>
                         <div className='flex flex-row w-2/3'>
                             <div className='space-y-3 mr-5 md:mr-30 lg:mr-40 whitespace-nowrap'>
                                 <h4 className='text-white font-bold text-lg mb-5 inline-block'>关于我们</h4>
-                                <Link href='/About_us'><p className='text-white/90 text-sm hover:underline'>关于我们</p>
-                                </Link>
-                                <Link href='/About_us/bepartner'><p
-                                    className='text-white/90 text-sm hover:underline'>成为合作伙伴</p></Link>
-                                <Link href='/About_us/contanct_us'><p
-                                    className='text-white/90 text-sm hover:underline'>联系我们</p></Link>
-                                <Link href='/About_us/hire'><p
-                                    className='text-white/90 text-sm hover:underline'>招聘/加入</p></Link>
+                                <div>
+                                    <Link href='/About_us'><p
+                                        className='text-white/90 text-sm hover:underline'>关于我们</p>
+                                    </Link></div>
+                                <div><Link href='/About_us/bepartner'><p
+                                    className='text-white/90 text-sm hover:underline'>成为合作伙伴</p></Link></div>
+                                <div><Link href='/About_us/contanct_us'><p
+                                    className='text-white/90 text-sm hover:underline'>联系我们</p></Link></div>
+                                <div><Link href='/About_us/hire'><p
+                                    className='text-white/90 text-sm hover:underline'>招聘/加入</p></Link></div>
+
                             </div>
                             <div className='space-y-3 mr-5 md:mr-30 lg:mr-40 whitespace-nowrap'>
                                 <h4 className='text-white font-bold text-lg mb-5'>能力/可以做什么</h4>
-                                <Link href='/Ability'><p
+                                <div><Link href='/Ability'><p
                                     className='text-white/90 text-sm hover:underline inline-block'>3D打印服务</p></Link>
-                                <Link href='/Ability/CNCMachiningServices'><p
-                                    className='text-white/90 text-sm hover:underline'>CNC加工服务</p></Link>
-                                <Link href='/Ability/FinishingServices'><p
-                                    className='text-white/90 text-sm hover:underline'>后处理服务</p></Link>
-                                <Link href='/AfterSalesSgreement'><p
-                                    className='text-white/90 text-sm hover:underline'>售后服务</p></Link>
+                                </div>
+                                <div><Link href='/Ability/CNCMachiningServices'><p
+                                    className='text-white/90 text-sm hover:underline'>CNC加工服务</p></Link></div>
+                                <div><Link href='/Ability/FinishingServices'><p
+                                    className='text-white/90 text-sm hover:underline'>后处理服务</p></Link></div>
+                                <div><Link href='/AfterSalesSgreement'><p
+                                    className='text-white/90 text-sm hover:underline'>售后服务</p></Link></div>
                             </div>
                         </div>
-                        <div className='space-y-3 mr-40 flex flex-col whitespace-nowrap right-0'>
-                            <p className='text-white font-bold text-lg mb-5'>联系人：束经理</p>
+                        <div className='w-1/3 flex flex-col '>
+                            <div className='space-y-3'>
+                            <p className='text-white/90 text-sm'>联系人：束经理</p>
                             <p className='text-white/90 text-sm'>联系电话：0574-87919101</p>
-                            <p className='text-white/90 text-sm'>邮箱：marketingmanager@sharein.cc</p>
+                            <p className='text-white/90 text-sm'>邮箱：marketingmanager@sharein.cc</p></div>
                         </div>
                     </div>
-                    <div className='border-t text-center space-y-2 py-3 border-t-white/20'>
+                    <div className='border-t text-center space-y-2 py-3 border-t-white/20 w-9/10 md:w-4/5'>
                         <p className='text-white/80 text-xs flex items-center justify-center'>
                             <a className='flex items-center mr-4'
                                href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33020002001182"
