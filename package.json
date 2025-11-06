@@ -28,6 +28,7 @@
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "antd": "^5.27.4",
+    "daisyui": "^5.4.5",
     "expo-router": "^6.0.8",
     "framer-motion": "^12.23.24",
     "motion": "^12.23.24",
