@@ -30,7 +30,7 @@ export default function Nave() {
     return (
         <div
             className='bg-white fixed top-0 z-40 h-[160px] sm:h-[160px] md:h-[120px] xl:h-[60px] lg:h-[60px] w-full shadow-lg flex justify-center items-center'>
-            <div className='w-full justify-items-center lg:flex xl:flex xl:justify-center xl:items-center'>
+            <div className='w-full justify-items-center lg:flex lg:items-center xl:flex xl:justify-center xl:items-center '>
                 {/*智算*/}
                 <div className='cursor-pointer flex lg:flex lg:justify-start xl:justify-end xl:flex xl:ml-auto'>
                     <Link href='/'>
@@ -39,8 +39,8 @@ export default function Nave() {
                                className='h-7 w-auto md:h-10'></Image>
                     </Link>
                 </div>
-                <div className='justify-items-center w-full relative md:flex md:justify-center md:w-full lg:w-[70%]'>
-                    {/*Quickly*/}
+                {/*Quickly*/}
+                <div className='justify-items-center w-auto relative md:flex md:justify-center lg:w-[70%] lg:items-center xl:w-auto'>
                     <div className='flex items-center'><Link href='/Quickly'>
                         <span
                             className='text-[#ff5722] font-bold cursor-pointer whitespace-nowrap pl-5'>燧言Quickly</span></Link>
@@ -515,7 +515,8 @@ export default function Nave() {
                                 className='cursor-pointer flex text-base whitespace-nowrap text-neutral-800 font-medium'>销售合作申请</span>
                         </Link></div>
                 </div>
-                <div className='flex justify-center w-full lg:flex lg:justify-end lg:w-[20%] xl:flex xl:justify-center xl:mr-auto'>
+                {/*报价登录*/}
+                <div className='flex justify-end w-[20%] lg:flex lg:justify-end xl:flex xl:justify-center xl:mr-auto'>
                     <div className='w-[50%] flex items-center justify-end'>
                         {visible &&
                             <a href='/Workspace' target="_blank"
@@ -524,7 +525,7 @@ export default function Nave() {
                                     <div
                                         className='absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg'></div>
                                     <div
-                                        className='px-3 py-1 m-0.5 xl:px-5 xl:py-2 bg-black rounded-[6px] relative text-white hover:bg-transparent'>
+                                        className='px-1 text-[14px] m-0.5 md:px-2 md:my-0.5 md:text-[16px] xl:px-5 xl:py-2 bg-black rounded-[6px] relative text-white hover:bg-transparent'>
                                         获取报价
                                     </div>
                                 </button>

@@ -246,12 +246,12 @@ function IndexPage() {
                             className='h-[320px] w-[350px] bg-gradient-to-l from-white to-white-1000/20 z-10 right-0 absolute'></div>
                         {isHovered &&
                             <a href='/Workspace' target="_blank"
-                               className='cursor-pointer flex justify-items-center absolute'>
-                                <button className='z-50 cursor-pointer'>
+                               className='cursor-pointer flex justify-center items-center absolute'>
+                                <button className='z-10 cursor-pointer'>
                                     <div
-                                        className='bg-indigo-500 to-purple-500 rounded-lg absolute inset-0'></div>
+                                        className='absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg'></div>
                                     <div
-                                        className='px-8 py-2 xl:py-2  xl:px-12 2xl:py-3  text-xl  bg-black rounded-[5px]  relative group transition duration-200 text-white hover:bg-transparent'>
+                                        className='px-12 py-3 text-xl bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent'>
                                         获取报价
                                     </div>
                                 </button>

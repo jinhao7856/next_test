@@ -50,7 +50,7 @@ export default function Login() {
     return (
         <div>
             <div
-                className=" relative group/btn min-w-[100px]  flex justify-center items-center text-black text-xs rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]">
+                className=" relative group/btn min-w-[100px] cursor-pointer flex justify-center items-center text-black text-xs rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]">
                 <p className='flex items-center px-4' onClick={open}>
                     <i className='iconfont icon-user_3'></i>
                     登录
