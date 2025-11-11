@@ -5,7 +5,7 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import Link from "next/link";
 import Table from './Table';
-import {SideMenu} from "@/app/Workspace/SideMenu";
+import Login from "@/app/Login";
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -152,7 +152,7 @@ export default function Workspace() {
                                                             </div>
                                                         </div>
                                                         <div className='mt-5'>
-                                                            <button type='submit'
+                                                            <button type='submit' onClick={Login}
                                                                     className='w-full h-10 text-white bg-orange-500 rounded-sm cursor-pointer'>请先登录
                                                             </button>
                                                         </div>

@@ -98,9 +98,9 @@ export default function order() {
                                         </div>
                                     </div>
                                     <div className='flex gap-3 mb-3 flex-wrap justify-end'>
-                                        <button
+                                        <a href='/Workspace/order/createInvoice'><button
                                             className='cursor-pointer text-white font-normal bg-orange-600 w-[90px] h-[30px]'>
-                                            <span>申请开票</span></button>
+                                            <span>申请开票</span></button></a>
                                     </div>
                                 </div>
                                 <div className=''>

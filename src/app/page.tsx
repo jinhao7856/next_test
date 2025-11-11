@@ -18,7 +18,7 @@ function IndexPage() {
                     <div className='relative flex flex-col justify-center bg-zinc-50 dark:bg-zinc-900 text-slate-950 transition-bg p-10 md:px-[12rem]'>
                         <div className='mt-16 flex flex-col lg:flex-row justify-between items-center w-full overflow-hidden relative  text-black'>
                             <div className='flex-1 mt-16 text-center lg:text-left'>
-                                <div className='text-2xl font-bold dark:text-white mr-0 xl:mr-24 md:text-2xl sm:text-3xl lg:text-5xl'>
+                                <div className='text-2xl font-bold dark:text-white mr-0 xl:mr-24 md:text-3xl sm:text-3xl lg:text-5xl'>
                                     一站式AI报价智造服务
                                 </div>
                                 <div className='font-light leading-relaxed py-4 mr-0 lg:mr-12 text-justify text-black dark:text-gray-300'>

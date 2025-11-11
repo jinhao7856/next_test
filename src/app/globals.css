@@ -2,6 +2,7 @@
 @tailwind utilities;
 @plugin "daisyui";
 
+
 @layer utilities {
     .animate-running {
         animation-play-state: running;
